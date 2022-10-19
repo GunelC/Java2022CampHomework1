@@ -1,0 +1,13 @@
+package reCapOdev1_2;
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		double[] myList = {0.3, 9.4, 3.7, 23.4 };
+		for(double number: myList) {
+			System.out.println(number);
+		}
+	}
+
+}

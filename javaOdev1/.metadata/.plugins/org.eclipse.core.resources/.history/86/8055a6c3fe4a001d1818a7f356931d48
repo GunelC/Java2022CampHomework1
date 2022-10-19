@@ -1,0 +1,23 @@
+package sesliHarfler;
+
+public class Main {
+
+	public static void main(String[] args) {
+    
+		char harf = 'ı';
+
+		switch (harf) {
+		case 'a', 'o', 'u', 'ı':
+			System.out.println("kalın");
+			break;
+
+		case 'i', 'e', 'ü', 'ö':
+			System.out.println("ince");
+			break;
+		default:
+			System.out.println("küçük ve sesli harf giriniz");
+
+		}
+	}
+
+}
